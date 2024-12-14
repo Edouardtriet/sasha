@@ -19,15 +19,25 @@
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-        h1 {
+        h1, h2 {
             color: #ff6b6b;
             text-align: center;
         }
-        .joke {
+        .joke, .fact, .did-you-know {
             padding: 15px;
             margin: 10px 0;
             background-color: #f8f9fa;
             border-left: 4px solid #ff6b6b;
+        }
+        .fact {
+            border-left-color: #4CAF50;
+        }
+        .did-you-know {
+            border-left-color: #2196F3;
+        }
+        .section-title {
+            color: #666;
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -35,16 +45,37 @@
     <div class="container">
         <h1>🎉 Welcome to Sasha's Fun Zone! 🎉</h1>
         
+        <h2 class="section-title">🎯 Joke of the Day</h2>
+        <div class="joke">
+            <p><strong>Why do JavaScript developers need glasses?</strong></p>
+            <p>Because they don't C# ! 👓</p>
+        </div>
+
+        <h2 class="section-title">🤓 Programming Fun Facts</h2>
+        <div class="fact">
+            <p>The first computer bug was actually a real bug! In 1947, Grace Hopper found a moth causing problems in the Harvard Mark II computer. This is where the term 'debugging' comes from! 🐛</p>
+        </div>
+        <div class="fact">
+            <p>The programming language Python isn't named after a snake - it's named after the comedy group Monty Python! 🐍</p>
+        </div>
+
+        <h2 class="section-title">💡 Did You Know?</h2>
+        <div class="did-you-know">
+            <p>The first programmer in history was a woman! Ada Lovelace wrote the first algorithm designed to be processed by a machine in the 1840s. 👩‍💻</p>
+        </div>
+        <div class="did-you-know">
+            <p>There are over 700 different programming languages in use today! 🌍</p>
+        </div>
+
+        <h2 class="section-title">😄 Classic Programming Jokes</h2>
         <div class="joke">
             <p><strong>Why don't programmers like nature?</strong></p>
             <p>It has too many bugs! 🐛</p>
         </div>
-
         <div class="joke">
             <p><strong>What did the HTML say to the CSS?</strong></p>
             <p>You make me look good! 💅</p>
         </div>
-
         <div class="joke">
             <p><strong>Why did the web developer leave the restaurant?</strong></p>
             <p>Because of the table layout! 🍽️</p>
